@@ -1,0 +1,257 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+}
+
+header {
+  background: url(../img/first-bg.jpg) no-repeat center top / cover;
+}
+
+.nav {
+  padding-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-left: 230px;
+  margin-right: 370px;
+}
+
+.menu {
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin-right: 43px;
+}
+
+.menu a:hover {
+  color: #fed136;
+}
+
+.home-h2 {
+  font-family: Arial, sans-serif;
+  font-size: 39.99pt;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-top: 152px;
+  margin-bottom: 0px;
+}
+
+.home-h1 {
+  font-family: Arial, sans-serif;
+  font-size: 72pt;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 0px;
+}
+.btn {
+  margin-top: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.btn a {
+  font-family: Arial, sans-serif;
+  font-size: 18pt;
+  font-weight: 600;
+  text-decoration: none;
+  color: #484543;
+  background: #fed136;
+  padding: 32.5px 116px;
+  transition: 0.5s;
+}
+
+.btn a:hover {
+  color: #fed136;
+  background: #484543;
+}
+
+.space {
+  height: 160px;
+}
+
+.servicesh1 {
+  font-family: Arial, sans-serif;
+  font-size: 39.99pt;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 0px;
+  align-content: center;
+}
+
+.servicesh3 {
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.service-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconcommerce {
+  margin-top: 70.5px;
+}
+
+.iconweb {
+  margin-top: 70.5px;
+}
+
+.service-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.service-title h3 {
+  font-family: Arial, sans-serif;
+  font-size: 18pt;
+  color: black;
+  text-align: center;
+}
+
+/* .service-titleCommerce {
+  margin-left: 315px;
+} */
+
+.container {
+  padding-left: 230px;
+  padding-right: 230px;
+}
+
+.services-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services-text h3 {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  color: #777;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 120px;
+  font-weight: 300;
+}
+
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.portfolioh1 {
+  font-family: Arial, sans-serif;
+  font-size: 39.99pt;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 0px;
+  align-content: center;
+}
+
+.images {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#image-table {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.space-portfolio {
+  height: 130px;
+}
+
+.about-content {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.about img {
+  margin-left: 40px;
+  height: 183px;
+  width: 183px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-block-text h4 {
+  font-family: Arial, sans-serif;
+  font-size: 18pt;
+  color: black;
+  text-align: right;
+}
+
+.left-block-text h6 {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  color: #777;
+  text-align: right;
+  margin-top: -10px;
+  margin-left: 55px;
+  font-weight: 300;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: row;
+  margin-left: 340px;
+}
+
+.right-block-text h4 {
+  font-family: Arial, sans-serif;
+  font-size: 18pt;
+  color: black;
+  text-align: left;
+  margin-left: 55px;
+}
+
+.right-block-text h6 {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  color: #777;
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 55px;
+  font-weight: 300;
+}
+
+.copyright {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+  color: #777;
+  margin-top: 115px;
+  margin-bottom: 115px;
+  font-weight: 300;
+}
